@@ -9,14 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div id="loader" class="loader">
-        <div class="loader-content">
-            <div class="loader-ring"></div>
-            <div class="loader-text">Loading...</div>
-        </div>
-    </div>
-
+  
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -40,119 +33,126 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="hero-particles"></div>
-        </div>
-        
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-greeting">
-                        <span class="greeting-text">Hello, I'm</span>
-                        <div class="wave">👋</div>
-                    </div>
-                    
-                    <h1 class="hero-title">
-                        <span class="title-name">Alan Austin</span>
-                        <span class="title-role">
-                            <span class="typed-text"></span>
-                            <span class="cursor"></span>
-                        </span>
-                    </h1>
-                    
-                    <p class="hero-description">
-                        A passionate Computer Science student from Bangladesh, specializing in web development, 
-                        competitive programming, and creative design. I craft digital experiences that inspire and engage.
-                    </p>
-                    
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">
-                            <span>Get In Touch</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#projects" class="btn btn-secondary">
-                            <span>View Projects</span>
-                            <i class="fas fa-eye"></i>
-                        </a>
-                    </div>
-                    
-                    <div class="hero-social">
-                        <a href="#" class="social-link" data-tooltip="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-link" data-tooltip="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="social-link" data-tooltip="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link" data-tooltip="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="social-link" data-tooltip="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
+  <!-- Hero Section -->
+<section id="home" class="hero">
+    <!-- Replace hero-background with your background image -->
+    <div class="hero-background" style="background-image: url('1000004144.jpg')"></div>
+    
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">
+                    <span class="greeting-text">Hello, I'm</span>
+                    <div class="wave">👋</div>
                 </div>
                 
-                <div class="hero-image">
-                    <div class="image-container">
-                        <div class="image-bg"></div>
-                        <img src="1747648708937.png" alt="Alan Austin" class="profile-image">
-                        <div class="image-decoration"></div>
-                    </div>
+                <h1 class="hero-title">
+                    <span class="title-name">Alan Austin</span>
+                    <span class="title-role">
+                        <span class="typed-text"></span>
+                        <span class="cursor"></span>
+                    </span>
+                </h1>
+                
+                <p class="hero-description">
+                    A passionate Computer Science student from Bangladesh, specializing in web development, 
+                    competitive programming, and creative design. I craft digital experiences that inspire and engage.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View Projects</span>
+                        <i class="fas fa-eye"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="#" class="social-link" data-tooltip="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
             </div>
             
-            <div class="scroll-indicator">
-                <div class="scroll-text">Scroll Down</div>
-                <div class="scroll-arrow">
-                    <i class="fas fa-chevron-down"></i>
+            <!-- Remove or hide the hero-image div -->
+            <!-- <div class="hero-image" style="display: none;">
+                <div class="image-container">
+                    <div class="image-bg"></div>
+                    <img src="1000004141.png" alt="Alan Austin" class="profile-image">
+                    <div class="image-decoration"></div>
                 </div>
+            </div> -->
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-subtitle">Get to know me</span>
-                <h2 class="section-title">About Me</h2>
-                <div class="section-line"></div>
+   <section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="about-content">
+            <!-- Profile Image Column -->
+            <div class="about-profile">
+                <div class="profile-image-container">
+                    <img src="1000004141.png" alt="Alan Austin" class="profile-image">
+                    <div class="image-decoration"></div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
             </div>
             
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="about-description">
-                        <p>
-                            Hi, I'm Alan Austin, a passionate Computer Science & Engineering (CSE) student with a strong drive for creativity and problem-solving. I specialize in web design and competitive coding, constantly exploring new technologies and sharpening my skills.
-                        </p>
-                        <p>
-                            Beyond the world of programming, I have a deep love for video and picture editing, photography, sketching, and playing the guitar. Whether it's crafting stunning visuals, designing sleek websites, or tackling complex coding challenges, I always aim for perfection.
-                        </p>
-                    </div>
-                    
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <div class="stat-number" data-count="50">0</div>
-                            <div class="stat-label">Projects</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-count="3">0</div>
-                            <div class="stat-label">Years Experience</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-count="100">0</div>
-                            <div class="stat-label">Problems Solved</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number" data-count="25">0</div>
-                            <div class="stat-label">Happy Clients</div>
-                        </div>
-                    </div>
+            <!-- Text and Tabs Column -->
+            <div class="about-details">
+                <div class="about-description">
+                    <p>
+                        Hi, I'm Alan Austin, a passionate Computer Science & Engineering (CSE) student with a strong drive for creativity and problem-solving. I specialize in web design and competitive coding, constantly exploring new technologies and sharpening my skills.
+                    </p>
+                    <p>
+                        Beyond the world of programming, I have a deep love for video and picture editing, photography, sketching, and playing the guitar. Whether it's crafting stunning visuals, designing sleek websites, or tackling complex coding challenges, I always aim for perfection.
+                    </p>
                 </div>
                 
                 <div class="about-tabs">
@@ -278,7 +278,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Services Section -->
     <section id="services" class="services">
